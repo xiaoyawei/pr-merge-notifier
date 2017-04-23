@@ -1,0 +1,30 @@
+{
+  "name": "pr-merge-notifier",
+  "version": "1.0.0",
+  "description": "chrome extension to notify users when their pull requests are ready to merge",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint . --ext=.jsx,.js",
+    "mocha": "mocha --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "enzyme": "^2.7.0",
+    "eslint": "^3.15.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoyawei/pr-merge-notifier.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaoyawei/pr-merge-notifier/issues"
+  },
+  "homepage": "https://github.com/xiaoyawei/pr-merge-notifier#readme"
+}
